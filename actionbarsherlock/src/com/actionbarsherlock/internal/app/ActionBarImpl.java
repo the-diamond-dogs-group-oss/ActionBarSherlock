@@ -1028,4 +1028,15 @@ public class ActionBarImpl extends ActionBar {
     public void setLogo(Drawable logo) {
         mActionView.setLogo(logo);
     }
+
+	@Override
+	public void setHomeAsUpIndicator(Drawable drawable) {
+
+	}
+
+	@Override
+	public void setHomeActionContentDescription(int contentResId) {
+		// TODO Auto-generated method stub
+		
+	}
 }

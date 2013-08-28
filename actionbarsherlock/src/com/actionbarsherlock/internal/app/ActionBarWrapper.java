@@ -477,4 +477,17 @@ public class ActionBarWrapper extends ActionBar implements android.app.ActionBar
             listener.onMenuVisibilityChanged(isVisible);
         }
     }
+
+
+	@Override
+	public void setHomeAsUpIndicator(Drawable drawable) {
+		
+	}
+
+
+	@Override
+	public void setHomeActionContentDescription(int contentResId) {
+		// TODO Auto-generated method stub
+		
+	}
 }
