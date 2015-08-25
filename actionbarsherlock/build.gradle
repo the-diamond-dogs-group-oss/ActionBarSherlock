@@ -18,5 +18,5 @@ android {
 }
 
 dependencies {
-    compile files('libs/android-support-v4_r18.jar')
+    compile (rootProject.ext.supportLibrary)
 }
